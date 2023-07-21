@@ -11,6 +11,9 @@ label {
 
 header {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Playfair Display SC';
+  text-align: center;
+  font-size: 64px;
 }
 
 /* typography */
@@ -39,6 +42,10 @@ td {
 
 /* table */
 
+tbody tr:nth-child(odd) {
+  background-color: #fff0c7;
+}
+
 table {
   table-layout: fixed;
   width: 100%;
@@ -54,7 +61,34 @@ table {
   text-overflow: ellipsis;
 }
 
-/* Column Size for thead */
+img {
+  object-fit: scale-down;
+  height: 100%;
+  width: 100%;
+}
 
+/* Column Size for thead */
+thead tr th:nth-child(-n+3) {
+  width: 10%
+}
+
+thead tr th:nth-child(n+4) {
+  width: 30%
+}
+
+thead tr th:nth-child(n+6) {
+  width: 10%
+}
 
 /* Column size for tbody */
+thead tr td:nth-child(-n+3) {
+  width: 10%
+}
+
+thead tr td:nth-child(n+4) {
+  width: 30%
+}
+
+thead tr td:nth-child(n+6) {
+  width: 10%
+}
