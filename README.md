@@ -6,10 +6,10 @@ including name, ingredients, directions, etc. Users are able to add their own re
 
 ## Technology
 
--JavaScript
--React
--HTML5
--CSS
+- JavaScript
+- React
+- HTML5
+- CSS
 
 ## Project Feautures
 
